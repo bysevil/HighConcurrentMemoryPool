@@ -1,11 +1,11 @@
 #pragma once
 #include "Exception.h"
+#include "common.h"
 
 constexpr auto MAX_ALLOC_SIZE = 256*1024;
 
 class ThreadCache {
 public:
-	ThreadCache();
 
 	//申请空间
 	void* allocMemory(size_t alloc_byte);
@@ -15,18 +15,13 @@ public:
 	
 
 private:
-	class FreeList {
-
-	};
-
-	void* _memoryFront; //持有空间头
-	FreeList* _freeList; //自由链表
-	size_t _residueByte; // 剩余空间大小
+	
+	FreeList _freeList[NFREELIST]; //自由链表
 };
 
 
 #ifdef _WIN32
-	__declspec(thread) static ThreadCache* threadCache = new ThreadCache();
+	__declspec(thread) static ThreadCache* TLSThreadCache = nullptr;
 #else
-	_thread static ThreadCache* threadCache = new ThreadCache();
+	_thread static ThreadCache* TLSThreadCache = nullptr;
 #endif

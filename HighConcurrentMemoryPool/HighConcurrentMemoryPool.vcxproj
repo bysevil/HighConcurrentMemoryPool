@@ -133,6 +133,7 @@
     <ClInclude Include="ThreadCache.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="common.cpp" />
     <ClCompile Include="Log.cpp" />
     <ClCompile Include="Exception.cpp" />
     <ClCompile Include="test.cpp" />
