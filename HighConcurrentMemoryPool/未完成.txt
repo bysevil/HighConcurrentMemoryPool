@@ -1,1 +1,1 @@
-Log类的线程安全问题，及单例模式设计
+ThreadCache 向 centerlCahce申请空间的操作暂时由malloc代替

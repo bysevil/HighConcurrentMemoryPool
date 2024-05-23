@@ -140,7 +140,6 @@
     <ClCompile Include="ThreadCache.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Log.txt" />
     <Text Include="未完成.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

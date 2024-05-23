@@ -5,10 +5,12 @@
 #include <mutex>
 #include <ctime>
 
+constexpr auto MAX_LOG_FILE_SIZE = 1e10; //单个日志文件最大大小
+constexpr auto MAX_LOG_FILE_NUM = 10; //最多有多少个日志文件
 //日志类
-//最多有10个日志文件
 class Log{
 public:
+
 	//使用单例模式（饿汉）初始化
 	static Log* CreateLog();
 
@@ -21,8 +23,11 @@ public:
 	//销毁单例日志类
 	static void DestructionLog();
 
-	//日志过大时删除日志
+	
 private:
+	//日志过大时进入下一个日志文件
+	void switchLogFile();
+
 	//自动销毁
 	class GC {
 	public:
@@ -39,6 +44,7 @@ private:
 	static GC _gc; 
 	std::string _logFilePath; //日志文件路径
 	std::ofstream* _ostrm; //打开的日志文件流
+	int _filenum; //当前使用的日志文件编号
 	static std::mutex _mtx; 
 };
 

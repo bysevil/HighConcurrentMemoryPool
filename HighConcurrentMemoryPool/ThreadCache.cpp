@@ -19,6 +19,7 @@ void* ThreadCache::allocMemory(size_t alloc_byte)
     void* ret = nullptr;
     if (_freeList[index].empty()) {
         //向中心缓存申请空间
+        
     }
     else {
         ret = _freeList[index].pop();
@@ -29,13 +30,15 @@ void* ThreadCache::allocMemory(size_t alloc_byte)
 
 void ThreadCache::releaseMemory(void* obj, size_t obj_byte)
 {
-    Log::record("execute releaseMemory: pointer" + std::to_string((int)obj) + " size" + std::to_string(obj_byte));
+    Log::record("execute releaseMemory: pointer" + std::to_string((int)obj) + " size" + std::to_string(BitAlignment::RoundUp(obj_byte)));
     std::thread::id thread_id = std::this_thread::get_id();
     
     if (obj_byte > MAX_SIZE) {
-        throw Exception(5, "Failed ThreadCache releaseMemory - obj_byte greater than MAX_SIZE :" + std::to_string(obj_byte));
+        throw Exception(5, "Failed ThreadCache releaseMemory - obj_byte greater than MAX_SIZE :" + std::to_string(BitAlignment::RoundUp(obj_byte)));
     }
-
+    if (obj == nullptr) {
+        throw Exception(6, "Fail ThreadCache releaseMemory - push obj == nullptr");
+    }
     
     size_t index = BitAlignment::Index(obj_byte);
     _freeList[index].push(obj);

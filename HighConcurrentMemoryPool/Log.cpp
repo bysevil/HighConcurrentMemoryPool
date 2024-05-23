@@ -5,9 +5,11 @@ std::mutex Log::_mtx;
 Log::GC Log::_gc;
 
 Log::Log()
-	:_logFilePath("./log.txt")
-	,_ostrm(new std::ofstream(_logFilePath, std::ofstream::app))
-{}
+	:_filenum(-1)
+	,_ostrm(new std::ofstream())
+{
+	switchLogFile();
+}
 
 Log::~Log()
 {
@@ -37,6 +39,9 @@ void Log::record(std::string logText)
 	ctime_s(buffer, sizeof(buffer), &now);
 
 	logText = buffer + logText;
+	if (_log->_ostrm->tellp() > MAX_LOG_FILE_SIZE) {
+		_log->switchLogFile();
+	}
 	*(_log->_ostrm) << "thread" << std::this_thread::get_id() << ' ';
 	*(_log->_ostrm) << logText.c_str() << std::endl;
 	_mtx.unlock();
@@ -57,6 +62,18 @@ void Log::DestructionLog()
 		_log = nullptr;
 		_mtx.unlock();
 	}
+}
+
+void Log::switchLogFile()
+{
+	_filenum = (_filenum + 1) % MAX_LOG_FILE_NUM;
+	_logFilePath = "./Log/Log" + std::to_string(_filenum) + ".txt";
+	if (_ostrm->is_open()) {
+		_ostrm->close();
+	}
+	_ostrm->open(_logFilePath, std::ofstream::trunc);
+	_ostrm->close();
+	_ostrm->open(_logFilePath, std::ofstream::app);
 }
 
 Log::GC::~GC()
