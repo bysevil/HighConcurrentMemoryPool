@@ -1,8 +1,2 @@
-﻿  common.cpp
-C:\Users\bysevil\Project\HighConcurrentMemoryPool\HighConcurrentMemoryPool\common.cpp(62,21): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
-  Log.cpp
-  Exception.cpp
-  test.cpp
-  ThreadCache.cpp
-  正在生成代码...
+﻿  test.cpp
   HighConcurrentMemoryPool.vcxproj -> C:\Users\bysevil\Project\HighConcurrentMemoryPool\x64\Debug\HighConcurrentMemoryPool.exe

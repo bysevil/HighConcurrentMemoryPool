@@ -1,9 +1,12 @@
 #pragma once
-#include "Exception.h"
 #include "common.h"
 
-constexpr auto MAX_ALLOC_SIZE = 256*1024;
+constexpr auto MAX_SIZE = 256*1024;
 
+
+
+
+//单例模式
 class ThreadCache {
 public:
 
@@ -13,15 +16,13 @@ public:
 	//释放空间
 	void releaseMemory(void* obj, size_t obj_byte);
 	
-
 private:
 	
 	FreeList _freeList[NFREELIST]; //自由链表
 };
 
+//创建ThreadCache
+ThreadCache* CreateThreadCache();
+//销毁ThreadCache
+void DestructionThreadCache();
 
-#ifdef _WIN32
-	__declspec(thread) static ThreadCache* TLSThreadCache = nullptr;
-#else
-	_thread static ThreadCache* TLSThreadCache = nullptr;
-#endif

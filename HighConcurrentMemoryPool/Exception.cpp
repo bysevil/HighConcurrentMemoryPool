@@ -4,7 +4,7 @@ Exception::Exception(int errid, std::string errmsg)
     :_errid(errid)
     , _errmsg(errmsg)
 {
-    ProjectLog->record("[Error" + std::to_string(_errid) + "]:" +  _errmsg);
+    Log::record("[Error" + std::to_string(_errid) + "]:" +  _errmsg);
 }
 
 int Exception::geterrid()

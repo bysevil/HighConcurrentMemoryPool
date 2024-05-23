@@ -1,39 +1,65 @@
 #include "Log.h"
 
-Log::Log(std::string logFilePath ="./Log/log.txt")
-	:_logFilePath(logFilePath)
+Log* Log::_log = CreateLog();
+std::mutex Log::_mtx;
+Log::GC Log::_gc;
+
+Log::Log()
+	:_logFilePath("./log.txt")
+	,_ostrm(new std::ofstream(_logFilePath, std::ofstream::app))
+{}
+
+Log::~Log()
 {
-	_ostrm = new std::ofstream(_logFilePath, std::ofstream::app);
+	_ostrm->close();
 }
 
 
-Log* Log::CreateLog(std::string logFilePath)
+Log* Log::CreateLog()
 {
 	if (_log == nullptr) {
-		Log* log = new Log(logFilePath);
+		_mtx.lock();
+		if (_log == nullptr) {
+			_log = new Log();
+		}
+		_mtx.unlock();
 	}
 	return _log;
 }
 
 void Log::record(std::string logText)
 {
-	
-	std::time(&timenum);
+	_mtx.lock();
+	std::time_t now;
+	std::time(&now);
 	// 转换为本地时间并输出
-	ctime_s(timestr, sizeof(timestr), &timenum);
+	char buffer[26];
+	ctime_s(buffer, sizeof(buffer), &now);
 
-	logText = timestr + logText;
-	*_ostrm << logText.c_str() << std::endl;
+	logText = buffer + logText;
+	*(_log->_ostrm) << "thread" << std::this_thread::get_id() << ' ';
+	*(_log->_ostrm) << logText.c_str() << std::endl;
+	_mtx.unlock();
 }
 
 std::string Log::getfilename()
 {
-	return _logFilePath;
+	return _log->_logFilePath;
 }
 
-void Log::GC::DestructionLog()
+void Log::DestructionLog()
 {
-	if (ProjectLog) {
-		delete ProjectLog;
+	if (_log != nullptr) {
+		_mtx.lock();
+		if (_log != nullptr) {
+			delete _log;
+		}
+		_log = nullptr;
+		_mtx.unlock();
 	}
+}
+
+Log::GC::~GC()
+{
+	DestructionLog();
 }

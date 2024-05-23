@@ -3,7 +3,6 @@
 
 constexpr auto NFREELIST = 208;
 
-static void*& nextObj(void* obj);
 
 class BitAlignment {
 	// 整体控制在最多10%左右的内碎片浪费
@@ -14,13 +13,13 @@ class BitAlignment {
 	// [64*1024+1,256*1024]		8*1024byte对齐   freelist[184,208)
 public:
 	//计算对齐数
-	static inline size_t RoundUp(size_t size);
+	static size_t RoundUp(size_t size);
 
 	//计算位于哪个桶
-	static inline size_t Index(size_t size);
+	static size_t Index(size_t size);
 private:
-	static inline size_t _RoundUp(size_t size, size_t Align);
-	static inline size_t _Index(size_t size, size_t Align);
+	static size_t _RoundUp(size_t size, size_t Align);
+	static size_t _Index(size_t size, size_t Align);
 };
 
 class FreeList {
@@ -33,6 +32,11 @@ public:
 
 	//判空
 	bool empty();
+
+	
 private:
-	void* _freeList;
+	//获取链表的下个节点
+	static void*& nextObj(void* obj);
+
+	void* _freeList = nullptr;
 };

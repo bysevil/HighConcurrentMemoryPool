@@ -3,40 +3,43 @@
 #include<fstream>
 #include <string>
 #include <mutex>
+#include <ctime>
+
 //日志类
+//最多有10个日志文件
 class Log{
 public:
 	//使用单例模式（饿汉）初始化
-	static Log* CreateLog(std::string logFilePath);
+	static Log* CreateLog();
 
 	//记录日志
-	void record(std::string logText);
+	static void record(std::string logText);
 
 	// 获取日志文件路径
-	std::string getfilename();
+	static std::string getfilename();
 
-	
-
-private:
 	//销毁单例日志类
+	static void DestructionLog();
+
+	//日志过大时删除日志
+private:
+	//自动销毁
 	class GC {
 	public:
-		void DestructionLog();
+		~GC();
 	};
-	//初始化时传入错误日期文件目录
-	Log(std::string logFilePath);
 
-	static Log* _log;
-	static GC _gc;
+	Log();
+	~Log();
+
+	Log(const Log& obj) = delete;
+	Log& operator=(const Log& obj) = delete;
+
+	static Log* _log; // 单例对象
+	static GC _gc; 
 	std::string _logFilePath; //日志文件路径
 	std::ofstream* _ostrm; //打开的日志文件流
-	static std::mutex _mtx;
+	static std::mutex _mtx; 
 };
 
-Log* Log::_log = CreateLog("./");
-std::mutex Log::_mtx;
-Log::GC Log::_gc;
 
-static std::time_t timenum;
-
-static char timestr[26];
