@@ -6,14 +6,14 @@ void FreeList::push(void* obj)
 {
     nextObj(obj) = _freeList;
     _freeList = obj;
-	Log::record("successed freeList Push");
+	Log::record(Log::INFO,"successed freeList Push");
 }
 
 void* FreeList::pop()
 {
     void* ret = _freeList;
     _freeList = nextObj(_freeList);
-	Log::record("successed freeList Pop");
+	Log::record(Log::INFO,"successed freeList Pop");
     return ret;
 }
 
@@ -35,7 +35,7 @@ size_t BitAlignment::_RoundUp(size_t size, size_t Align)
 
 size_t BitAlignment::RoundUp(size_t size)
 {
-	Log::record("execute bitAligment::RoudUp");
+	Log::record(Log::INFO,"execute bitAligment::RoudUp");
 	size_t ret = 0;
 	if (size <= 128)
 	{
@@ -61,7 +61,7 @@ size_t BitAlignment::RoundUp(size_t size)
 	{
 		throw Exception(3,"Failed RoundUp - size greater then MAX_ALLOC_SIZE");
 	}
-	Log::record("bitAligment::RoudUp return" + std::to_string(ret));
+	Log::record(Log::INFO,"bitAligment::RoudUp return" + std::to_string(ret));
 	return ret;
 }
 
@@ -72,7 +72,7 @@ size_t BitAlignment::_Index(size_t size, size_t Align)
 
 size_t BitAlignment::Index(size_t bytes)
 {
-	Log::record("execute bitAligment::Index");
+	Log::record(Log::INFO,"execute bitAligment::Index");
 	static int group_array[4] = { 16, 56, 56, 56 };
 	size_t ret = 0;
 	if (bytes <= 128) {
@@ -93,7 +93,7 @@ size_t BitAlignment::Index(size_t bytes)
 	else {
 		throw Exception(4, "Failed Index - Bucket does not exist");
 	}
-	Log::record("bitAligment::Index return" + std::to_string(ret));
+	Log::record(Log::INFO,"bitAligment::Index return" + std::to_string(ret));
 	return ret;
 }
 

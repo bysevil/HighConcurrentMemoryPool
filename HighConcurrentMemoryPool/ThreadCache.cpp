@@ -8,7 +8,7 @@ _thread ThreadCache* TLS_tc = nullptr;
 
 void* ThreadCache::allocMemory(size_t alloc_byte)
 {
-    Log::record("execute allocMemory");
+    Log::record(Log::INFO,"execute allocMemory");
     //申请空间是否过大
     if (alloc_byte > MAX_SIZE) {
         throw Exception(1, "Failed ThreadCache allocMemory - allocByte greater than MAX_SIZE :" + std::to_string(alloc_byte));
@@ -19,18 +19,18 @@ void* ThreadCache::allocMemory(size_t alloc_byte)
     void* ret = nullptr;
     if (_freeList[index].empty()) {
         //向中心缓存申请空间
-        
+        ret = malloc(size);
     }
     else {
         ret = _freeList[index].pop();
     }
-    Log::record("success allocMemory");
+    Log::record(Log::INFO,"success allocMemory");
     return ret;
 }
 
 void ThreadCache::releaseMemory(void* obj, size_t obj_byte)
 {
-    Log::record("execute releaseMemory: pointer" + std::to_string((int)obj) + " size" + std::to_string(BitAlignment::RoundUp(obj_byte)));
+    Log::record(Log::INFO, "execute releaseMemory: pointer" + std::to_string((int)obj) + " size" + std::to_string(BitAlignment::RoundUp(obj_byte)));
     std::thread::id thread_id = std::this_thread::get_id();
     
     if (obj_byte > MAX_SIZE) {
@@ -42,7 +42,7 @@ void ThreadCache::releaseMemory(void* obj, size_t obj_byte)
     
     size_t index = BitAlignment::Index(obj_byte);
     _freeList[index].push(obj);
-    Log::record("success releaseMemory");
+    Log::record(Log::INFO,"success releaseMemory");
 }
 
 ThreadCache* CreateThreadCache()
@@ -56,6 +56,7 @@ ThreadCache* CreateThreadCache()
     return TLS_tc;
 }
 
+
 void DestructionThreadCache()
 {
     if (TLS_tc != nullptr) {
@@ -63,5 +64,7 @@ void DestructionThreadCache()
         TLS_tc = nullptr;
     }
 }
+
+
 
 

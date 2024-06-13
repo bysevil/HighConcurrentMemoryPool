@@ -1,5 +1,6 @@
 #pragma once
 #include "Exception.h"
+#include "Log.h"
 
 constexpr auto NFREELIST = 208;
 
