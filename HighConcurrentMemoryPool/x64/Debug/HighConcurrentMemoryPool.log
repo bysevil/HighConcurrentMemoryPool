@@ -1,2 +1,6 @@
-﻿  test.cpp
-  HighConcurrentMemoryPool.vcxproj -> C:\Users\bysevil\Project\HighConcurrentMemoryPool\x64\Debug\HighConcurrentMemoryPool.exe
+﻿  ThreadCache.cpp
+C:\Users\bysevil\Project\HighConcurrentMemoryPool\HighConcurrentMemoryPool\ThreadCache.cpp(36,78): warning C4311: “类型强制转换”: 从“void *”到“int”的指针截断
+C:\Users\bysevil\Project\HighConcurrentMemoryPool\HighConcurrentMemoryPool\ThreadCache.cpp(36,78): warning C4302: “类型强制转换”: 从“void *”到“int”截断
+CentralCache.obj : error LNK2019: 无法解析的外部符号 "private: __cdecl CentralCache::CentralCache(void)" (??0CentralCache@@AEAA@XZ)，函数 "public: static class CentralCache * __cdecl CentralCache::CreateCentralCache(void)" (?CreateCentralCache@CentralCache@@SAPEAV1@XZ) 中引用了该符号
+CentralCache.obj : error LNK2019: 无法解析的外部符号 "private: __cdecl CentralCache::~CentralCache(void)" (??1CentralCache@@AEAA@XZ)，函数 "private: void * __cdecl CentralCache::`scalar deleting destructor'(unsigned int)" (??_GCentralCache@@AEAAPEAXI@Z) 中引用了该符号
+C:\Users\bysevil\Project\HighConcurrentMemoryPool\x64\Debug\HighConcurrentMemoryPool.exe : fatal error LNK1120: 2 个无法解析的外部命令

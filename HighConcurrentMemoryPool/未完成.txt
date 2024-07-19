@@ -1,1 +1,0 @@
-ThreadCache 向 centerlCahce申请空间的操作暂时由malloc代替

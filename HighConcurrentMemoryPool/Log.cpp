@@ -14,6 +14,7 @@ std::string get_nowTime() {
 	ret.pop_back();
 	return ret;
 }
+
 Log::Log(std::string logFilePath,level outFileLV,level outCmdLV)
 	:_filenum(-1)
 	,_outCmdLV(outCmdLV)
@@ -84,19 +85,19 @@ std::string Log::getLevel() {
 	std::string ret;
 	switch (_log->_lv) {
 	case INFO:
-		ret = "info";
+		ret = "INFO";
 		break;
 	case DEBUG:
-		ret = "debug";
+		ret = "DEBUG";
 		break;
 	case WARN:
-		ret = "warn";
+		ret = "WARN";
 		break;
 	case ERROR:
-		ret = "error";
+		ret = "ERROR";
 		break;
 	case FATAL:
-		ret = "fatal";
+		ret = "FATAL";
 		break;
 	}
 	return ret;

@@ -17,11 +17,11 @@ class Log{
 public:
 	//日志级别
 	enum level{
-		INFO,
-		DEBUG,
-		WARN,
-		ERROR,
-		FATAL
+		INFO,	//普通
+		DEBUG,	//调试
+		WARN,	//警告
+		ERROR,	//错误
+		FATAL	//致命
 	};
 
 	//使用单例模式（饿汉）初始化
@@ -44,6 +44,7 @@ public:
 
 	//设置最低输出至文件的日志级别
 	static void setOutFileLV(level outFileLV);
+
 	//设置最低输出至控制台的日志级别
 	static void setOutCmdLV(level outCmdLV);
 private:

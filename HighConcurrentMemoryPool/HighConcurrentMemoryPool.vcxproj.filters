@@ -30,6 +30,9 @@
     <ClInclude Include="CentralCache.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ConcurrentAlloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="test.cpp">
@@ -38,19 +41,14 @@
     <ClCompile Include="ThreadCache.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Exception.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Log.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="common.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="未完成.txt">
-      <Filter>资源文件</Filter>
-    </Text>
+    <ClCompile Include="CentralCache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

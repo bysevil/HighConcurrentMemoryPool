@@ -1,25 +1,24 @@
-#include"ThreadCache.h"
+#include"concurrentAlloc.h"
 
-
-void test() {
+//测试threadCache是否正常运行
+void test1() {
 	try {
 		//Log::setOutLV(Log::DEBUG);
-		ThreadCache* TLS_tc = CreateThreadCache();
 		for(int i = 0; i < 10; i++) {
-			void* tmp = TLS_tc->allocMemory(222222222);
-			TLS_tc->releaseMemory(tmp, 18);
+			void* tmp = ConcurrentAlloc(18);
+			ConcurrentFree(tmp,18);
 			//std::this_thread::sleep_for(std::chrono::milliseconds(1));
 		}
-		DestructionThreadCache();
-		TLS_tc = nullptr;
 	}
 	catch (Exception E) {
-		Log::record(Log::ERROR, "[id:" + std::to_string(E.geterrid()) + "] " + E.geterrmsg());
+		Log::record(Log::ERROR, "[ID:" + std::to_string(E.geterrid()) + "] " + E.geterrmsg());
 	}
 }
 
 int main() {
-	std::thread t1(test);
+	std::thread t1(test1);
 	t1.join();
+	std::thread t2(test1);
+	t2.join();
 	return 0;
 }

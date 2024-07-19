@@ -1,27 +1,29 @@
 #pragma once
 #include "common.h"
-#include "Log.h"
-#include "Exception.h"
 
 constexpr auto MAX_SIZE = 256*1024;
 
-
 class ThreadCache {
 public:
-	//申请空间
+	//分配空间给对象
 	void* allocMemory(size_t alloc_byte);
 
-	//释放空间
+	//对象还回空间
 	void releaseMemory(void* obj, size_t obj_byte);
+
+	//向中心缓存申请空间
+	void FetchFromCentralCache(size_t index, size_t size);
 private:
-	
-	FreeList _freeList[NFREELIST]; //自由链表
+	//使用慢反馈调节算法调节单次申请的内存数量
+	size_t bathItemNum(size_t index, size_t size);
+
+	FreeList _freeMap[NFREELIST]; //自由链表
 };
 
-//创建ThreadCache
-ThreadCache* CreateThreadCache();
-//销毁ThreadCache
-void DestructionThreadCache();
-
+#ifdef _WIN32
+static __declspec(thread) ThreadCache* TLS_tc = nullptr;
+#else
+static _thread ThreadCache* TLS_tc = nullptr;
+#endif
 
 
