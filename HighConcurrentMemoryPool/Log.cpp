@@ -46,6 +46,10 @@ Log* Log::CreateLog(std::string logFilePath,level outFileLV,level outCmdLV)
 
 void Log::record(level lv,std::string logText)
 {
+	if (_log == nullptr) {
+		std::cout <<"_log == nullptr" << std::endl;
+		return;
+	}
 	_log->_lv = lv;
 	if (lv >= _log->_outCmdLV) {
 		_mtx.lock();
@@ -93,7 +97,7 @@ std::string Log::getLevel() {
 	case WARN:
 		ret = "WARN";
 		break;
-	case ERROR:
+	case LOG_ERROR:
 		ret = "ERROR";
 		break;
 	case FATAL:

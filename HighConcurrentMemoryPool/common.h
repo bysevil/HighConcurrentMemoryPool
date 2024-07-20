@@ -4,14 +4,24 @@
 #include<algorithm>
 #include<list>
 #include<cmath>
+#include<windows.h>
 
-constexpr auto NFREELIST = 208; // 桶的最大下标
+constexpr auto MAX_SIZE = 256 * 1024; //单次能申请的最大内存
+
+constexpr auto NFREELIST = 208; // 自由链表桶的最大下标
+
+constexpr auto NPAGES = 128; // 页桶的最大下标
+
+constexpr auto PAGE_SHIFT = 13; // 移位一个页大小所需的次数
 
 #ifdef _WIN64
 typedef unsigned long long PAGE_ID;
 #elif _WIN32
 typedef size_t PAGE_ID;
 #endif
+
+// 直接向操作系统申请指定页的内存2
+void* SystemAlloc(size_t kpage);
 
 //获取链表的下个节点
 void*& nextObj(void* obj);
@@ -33,6 +43,9 @@ public:
 
 	//threadCache从CentralCahce单次申请的内存的数量上限
 	static size_t MaxAllocItem(size_t size);
+
+	//CentralCache向PageCache一次申请的Span的页数
+	static size_t NumAllocSpan(size_t size);
 private:
 	static size_t _RoundUp(size_t size, size_t Align);
 	static size_t _Index(size_t size, size_t Align);
@@ -43,6 +56,9 @@ class FreeList {
 public:
 	// 插入
 	void push(void* obj);
+
+	// 插入多个对象
+	void pushRange(void* start, void* endl);
 
 	// 删除
 	void* pop();
@@ -62,8 +78,8 @@ private:
 
 //管理多个跨度的内存
 struct Span {
-	int _pageId;		// 大块内存起始页页号
-	size_t n;			// 页的数量 
+	PAGE_ID _pageId;		// 大块内存起始页页号
+	size_t _n;			// 页的数量 
 
 	void* _list;		// 切好的小块内存——通过链表连接
 	size_t _useCount;	// 分配内存计数，为0时未分配出任何空间或者分配出去的空间都回来了
@@ -76,9 +92,24 @@ struct Span {
 	bool isUse = false; // 是否正在使用
 };
 
-// 带头双向循环链表
 class SpanList {
+public:
+	// 加/解锁
+	void lock();
+	void unlock();
 
+	// 迭代器
+	std::list<Span*>::iterator begin();
+	std::list<Span*>::iterator end();
+
+	//判空
+	bool empty();
+
+	//弹出一个Span
+	Span* PopFront();
+	//插入一个Span
+	void PushFront(Span* span);
 private:
-	std::list<Span> _list;
+	std::list<Span*> _list;
+	std::mutex _mtx;
 };

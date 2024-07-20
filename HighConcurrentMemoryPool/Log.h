@@ -20,12 +20,12 @@ public:
 		INFO,	//普通
 		DEBUG,	//调试
 		WARN,	//警告
-		ERROR,	//错误
+		LOG_ERROR,	//错误
 		FATAL	//致命
 	};
 
 	//使用单例模式（饿汉）初始化
-	static Log* CreateLog(std::string logFilePath = "./Log/Log", level outFileLV= Log::INFO, level outCmdLV = Log::ERROR);
+	static Log* CreateLog(std::string logFilePath = "./Log/Log", level outFileLV= Log::INFO, level outCmdLV = Log::LOG_ERROR);
 
 	//记录日志
 	static void record(level ,std::string logText);
@@ -53,8 +53,7 @@ private:
 
 	
 	//自动销毁
-	class GC {
-	public:
+	struct GC {
 		~GC();
 	};
 

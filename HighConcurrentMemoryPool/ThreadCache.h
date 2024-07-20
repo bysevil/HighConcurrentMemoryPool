@@ -1,8 +1,6 @@
 #pragma once
 #include "common.h"
 
-constexpr auto MAX_SIZE = 256*1024;
-
 class ThreadCache {
 public:
 	//分配空间给对象

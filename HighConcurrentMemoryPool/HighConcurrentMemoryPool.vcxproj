@@ -132,12 +132,14 @@
     <ClInclude Include="ConcurrentAlloc.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="Exception.h" />
+    <ClInclude Include="PageCache.h" />
     <ClInclude Include="ThreadCache.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CentralCache.cpp" />
     <ClCompile Include="common.cpp" />
     <ClCompile Include="Log.cpp" />
+    <ClCompile Include="PageCache.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="ThreadCache.cpp" />
   </ItemGroup>

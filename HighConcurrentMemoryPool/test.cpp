@@ -11,14 +11,15 @@ void test1() {
 		}
 	}
 	catch (Exception E) {
-		Log::record(Log::ERROR, "[ID:" + std::to_string(E.geterrid()) + "] " + E.geterrmsg());
+		Log::record(Log::LOG_ERROR,"[ID:" + std::to_string(E.geterrid()) + "] " + E.geterrmsg());
+		exit(0);
 	}
 }
 
 int main() {
 	std::thread t1(test1);
 	t1.join();
-	std::thread t2(test1);
-	t2.join();
+	//std::thread t2(test1);
+	//t2.join();
 	return 0;
 }

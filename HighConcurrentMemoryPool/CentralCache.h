@@ -4,10 +4,14 @@
 //单例模式
 class CentralCache {
 public:
-	//申请空间
-	void* allocMember(int index);
+	// 获取一个非空的Span
+	Span* getOneSpan(size_t index, size_t size);
+
+	// 向threadCache分配空间
+	size_t allocRangeMember(void*& start, void*& endl, size_t batchNum, size_t size, size_t index);
+	
 	//释放空间
-	void releaseMember(void* front, int size, int len);
+	//void releaseMember(void* front, int size, int len);
 
 	//创建单例中心缓存
 	static CentralCache* CreateCentralCache();
@@ -19,7 +23,6 @@ private:
 	CentralCache(const CentralCache&) = delete;
 	CentralCache operator=(const CentralCache&) = delete;
 	struct GC {
-		GC();
 		~GC();
 	};
 
@@ -27,7 +30,7 @@ private:
 	static CentralCache* _cc;
 	static std::mutex _mtx;
 
-	SpanList _span[NFREELIST];
+	SpanList _spanMap[NFREELIST];
 };
 
 

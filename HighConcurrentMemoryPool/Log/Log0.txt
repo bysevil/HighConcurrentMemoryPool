@@ -1,324 +1,207 @@
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414565904 size24
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread33576] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Pop endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success allocMemory
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::RoudUp
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::RoudUp return24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute releaseMemory: pointer-414564848 size24
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  execute bitAligment::Index
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  bitAligment::Index return2
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push start
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  freeList Push endl
-[thread29276] [Fri Jul 19 18:01:39 2024] [INFO]:  success releaseMemory
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向CentralCache申请指定数量的小块内存
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算需要申请的小块内存的个数
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  获取自由链表的maxSize：1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算向CentralCache申请的内存数量
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算向CentralCache申请的内存数量成功，返回：512
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  获取自由链表的maxSize：1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  获取自由链表的maxSize：1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  修改自由链表的maxSize，修改后为：2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算需要申请的小块内存的个数成功：1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向线程缓存分配内存
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始获取一个非空的跨度
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始计算需要申请的Span的页数
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算向CentralCache申请的内存数量
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算向CentralCache申请的内存数量成功，返回：512
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算需要申请的Span的页数成功：返回1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向中心缓存分配Span
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向操作系统申请内存成功,大小：1040384起始地址：906362880
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  切分127页的Span为1
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  切分完成
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向中心缓存分配Span成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  获取一个非空跨度成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始构建小块内存序列
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  构建小块内存序列成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向线程缓存分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象序列插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象序列插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向CentralCache申请指定数量的小块内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  开始向对象分配内存:18
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[24]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  判断自由链表是否为空：0
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  成功从自由链表中弹出一个对象
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  向对象分配内存成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算内存对齐后的大小成功，返回：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存，地址：906362880 大小：24
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  计算指定大小的内存[18]在自由链表桶的下标成功，返回2
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  将对象插入自由链表成功
+[thread1608] [Sun Jul 21 02:33:52 2024] [INFO]:  对象向threadCache还回内存成功
